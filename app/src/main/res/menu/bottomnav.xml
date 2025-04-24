@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
-<item android:id="@+id/AccountFragment"
+    <item android:title="Home"
+        android:id="@+id/HomeFragment"/>
+    <item android:id="@+id/AccountFragment"
     android:title="Account"/>
     <item android:id="@+id/CatFragment"
         android:title="Categories"/>
-    <item android:title="Home"
-        android:id="@+id/HomeFragment"/>
+
 </menu>

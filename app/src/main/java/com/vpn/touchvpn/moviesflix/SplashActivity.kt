@@ -22,10 +22,6 @@ class SplashActivity : AppCompatActivity() {
             insets
         }
 
-        Handler(Looper.getMainLooper()).postDelayed({
-            var inent = Intent(this, MainActivity::class.java)
-            startActivity(inent)
-        },3000)
 
     }
 }
